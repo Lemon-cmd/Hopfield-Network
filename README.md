@@ -11,7 +11,8 @@ Similar to other first variations of neural network, the Hopfield network is a s
 Unlike current feed-forward phase of ANNs and their utilization of strictly ***restricted Boltzmann Networks***, the Hopfield model seeks to model after the operation of our biological neurons within our brain. This means only neurons who are active together, shall fire together. 
 
 This rule is still very important as the modern ANNs architecture created by Geoffrey Hinton from Univ. Toronto does not follow it and thus, violate Dale's law.  
-It remains essential as researchers are trying to develop a new way to not depend on backpropagation but rather, a process that updates during the feed forward phase. 
+
+It remains essential as researchers are trying to develop a new way to not depend on backpropagation but rather, a process that updates the weights during the feed forward phase. 
 
 ### Energy Function
 Another distinction of this model is its usage of the energy function which serves as J or the cost function: 
