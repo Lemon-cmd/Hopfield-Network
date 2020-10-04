@@ -12,7 +12,7 @@ Unlike current feed-forward phase of ANNs and their utilization of strictly ***r
 
 This rule is still very important as the modern ANNs architecture created by Geoffrey Hinton from Univ. Toronto does not follow it and thus, violate Dale's law.  
 
-In addition, researchers are trying to develop a new way to not depend on backpropagation but rather, a process that updates the weights during the feed forward phase. This rule illustrates this very process but lack the capacity to store a large number of patterns.
+In addition, researchers are trying to develop a new way to not depend on backpropagation but rather, a process that updates the weights during the feed forward phase. This rule illustrates this very process but the model only lacks the capacity to store a large number of patterns.
 
 ### Energy Function
 Another distinction of this model is its usage of the energy function which serves as J or the cost function: 
